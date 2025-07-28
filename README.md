@@ -39,14 +39,14 @@ Each incident must follow this structure:
 
 ```json
 {
-  "date": "YYYY-MM-DD",                  // Date of the incident
-  "manufacturer": "Aircraft Manufacturer", // E.g., Boeing, Airbus
-  "aircraft": "Aircraft Model",             // E.g., 737 MAX, A320neo
-  "airline": "Airline Company",             // Name of the airline involved
-  "incident_type": "Incident Category",     // E.g., engine failure, runway overrun
+  "date": "YYYY-MM-DD",         
+  "manufacturer": "Aircraft Manufacturer",
+  "aircraft": "Aircraft Model",      
+  "airline": "Airline Company",       
+  "incident_type": "Incident Category",
   "description": "Detailed description of the incident",
-  "location": "City, Country",              // Where it occurred
-  "casualties": "Casualty information",     // E.g., 3 dead, 7 injured, or "None"
+  "location": "City, Country",     
+  "casualties": "Casualty information",
   "news_links": ["https://link1.com", "https://link2.com"]
 }
 ```
