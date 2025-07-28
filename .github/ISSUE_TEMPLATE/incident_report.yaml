@@ -1,0 +1,101 @@
+name: 🛩️ Aviation Incident Report
+description: Report a new aviation incident to be added to the database.
+title: '[INCIDENT] <aircraft> - <incident_type>'
+labels: ['incident', 'data']
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Incident Date
+      description: Date of the incident (YYYY-MM-DD format)
+      placeholder: "2024-01-15"
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Aircraft Manufacturer
+      description: Manufacturer of the aircraft involved
+      placeholder: "Boeing, Airbus, Bombardier, etc."
+    validations:
+      required: true
+  - type: input
+    id: aircraft
+    attributes:
+      label: Aircraft Model
+      description: Specific aircraft model involved
+      placeholder: "Boeing 737 MAX 9, Airbus A350-900, etc."
+    validations:
+      required: true
+  - type: input
+    id: airline
+    attributes:
+      label: Airline
+      description: Airline operating the flight
+      placeholder: "Alaska Airlines, Japan Airlines, etc."
+    validations:
+      required: true
+  - type: dropdown
+    id: incident_type
+    attributes:
+      label: Incident Type
+      description: Type of incident that occurred
+      options:
+        - "Structural Failure"
+        - "Collision"
+        - "Turbulence"
+        - "Engine Failure"
+        - "Landing Incident"
+        - "Takeoff Incident"
+        - "Fire"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Incident Description
+      description: Detailed description of what happened during the incident
+      placeholder: "Provide a clear, factual description of the incident..."
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where the incident occurred (city, airport, or region)
+      placeholder: "Portland, Oregon or Tokyo Haneda Airport, Japan"
+    validations:
+      required: true
+  - type: input
+    id: casualties
+    attributes:
+      label: Casualties
+      description: Number of fatalities and injuries (if any)
+      placeholder: "0 fatalities, 0 injuries or 5 fatalities, 50+ injuries"
+    validations:
+      required: true
+  - type: textarea
+    id: news_links
+    attributes:
+      label: News Sources
+      description: Links to reliable news articles about this incident (one per line)
+      placeholder: "https://www.bbc.com/news/...&#10;https://www.reuters.com/..."
+    validations:
+      required: true
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details about the incident
+      placeholder: "Flight number, registration, weather conditions, etc."
+    validations:
+      required: false
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm that you have verified this incident from reliable news sources and that all information provided is accurate to the best of your knowledge.
+      placeholder: "I confirm that I have verified this incident from reliable news sources and all information provided is accurate to the best of my knowledge."
+    validations:
+      required: true 
