@@ -1,7 +1,27 @@
 {
   "name": "aviationincidents",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Pradumna Saraf",
+  "description": "Aviation Incidents",
+  "keywords": [
+    "aviation",
+    "incidents",
+    "accidents",
+    "safety",
+    "aircraft",
+    "airlines",
+    "accountability",
+    "transparency"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradumnasaraf/aviationincidents"
+  },
+  "homepage": "https://pradumnasaraf.github.io/aviationincidents",
+  "bugs": {
+    "url": "https://github.com/pradumnasaraf/aviationincidents/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
