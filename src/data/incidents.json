@@ -1,11 +1,53 @@
 [
   {
+    "date": "2025-07-26",
+    "manufacturer": "Boeing",
+    "aircraft": "737 MAX 8",
+    "airline": "American Airlines",
+    "incident_type": "Fire",
+    "description": "Flight 3023 aborted takeoff on runway 34L at Denver International Airport; left main gear collapsed and small fire broke out",
+    "location": "Denver, CO, United States",
+    "casualties": "0 fatalities, 182 occupants (176 passengers, 6 crew) evacuated safely",
+    "news_links": [
+      "https://asn.flightsafety.org/wikibase/530336",
+      "https://www.cbsnews.com/colorado/news/aircraft-evacuated-denver-international-airport-american-airlines-takeoff-incident/"
+    ]
+  },
+  {
+    "date": "2025-07-24",
+    "manufacturer": "Antonov",
+    "aircraft": "An-24RV",
+    "airline": "Angara Airlines",
+    "incident_type": "Crash",
+    "description": "Flight 2311 crashed into terrain on final approach in poor visibility during second landing attempt",
+    "location": "Near Tynda, Amur Oblast, Russia",
+    "casualties": "48 fatalities (42 passengers, 6 crew), 0 survivors",
+    "news_links": [
+      "https://en.wikipedia.org/wiki/Angara_Airlines_Flight_2311",
+      "https://www.theguardian.com/world/2025/jul/24/passenger-plane-missing-russia-far-east-an-24-angara"
+    ]
+  },
+  {
+    "date": "2025-07-13",
+    "manufacturer": "Beechcraft",
+    "aircraft": "Super King Air",
+    "airline": "Zeusch Aviation",
+    "incident_type": "Crash",
+    "description": "Flight SUZ1 crashed shortly after takeoff from London Southend Airport; all four occupants died",
+    "location": "Essex, United Kingdom",
+    "casualties": "4 fatalities (2 passengers, 2 crew), 0 survivors",
+    "news_links": [
+      "https://en.wikipedia.org/wiki/2025_Zeusch_Aviation_Beechcraft_King_Air_crash",
+      "https://news.sky.com/story/doctor-was-among-four-people-killed-in-southend-airport-plane-crash-as-one-victims-body-not-yet-recovered-13396661"
+    ]
+  },
+  {
     "date": "2025-06-12",
     "manufacturer": "Boeing",
     "aircraft": "787-8 Dreamliner",
     "airline": "Air India",
     "incident_type": "Crash",
-    "description": "Flight 171 crashed after takeoff from Ahmedabad; both engines lost thrust. 1 survivor, investigation ongoing.",
+    "description": "Flight 171 crashed after takeoff from Ahmedabad; both engines lost thrust just after takeoff",
     "location": "Ahmedabad, India",
     "casualties": "260 fatalities (241 passengers and crew, 19 on the ground), 1 survivor",
     "news_links": [

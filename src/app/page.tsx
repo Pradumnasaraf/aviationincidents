@@ -191,7 +191,7 @@ export default function Home() {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/pradumnasaraf/aviationincidents"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center px-6 py-3 text-sm font-semibold text-gray-700 bg-gradient-to-r from-gray-50 to-gray-100 border border-gray-200 rounded-xl hover:from-gray-100 hover:to-gray-200 hover:border-gray-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out"
@@ -203,7 +203,7 @@ export default function Home() {
               </a>
               
               <a
-                href="https://github.com"
+                href="https://github.com/Pradumnasaraf/aviationincidents?tab=readme-ov-file#contributing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-600 border border-transparent rounded-xl hover:from-blue-700 hover:to-indigo-700 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ease-in-out shadow-lg"

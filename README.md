@@ -6,13 +6,13 @@
 
 ## Contributing
 
-Help us build the most transparent archive of aviation-related incidents.
+You can contribute to this project by reporting an incident or by adding a new incident to the database.
 
 Please gather the following information before reporting an incident:
 - Date of the incident
 - Manufacturer of the aircraft involved
 - Aircraft model involved
-- Airline operating the flight
+- The airline operating the flight
 - Type of incident that occurred
 - Detailed description of the incident
 - Location of the incident
@@ -71,6 +71,6 @@ Example:
 ]
 ```
 
-### Why it exists and matters?
+### Why does it exist and matter?
 
 This project exists to shine light on aviation safety concerns—both major and minor. Each data point adds pressure for better safety standards, accountability, and operational improvements.
