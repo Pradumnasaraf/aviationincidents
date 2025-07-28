@@ -4,6 +4,8 @@
   <p>Tracking global aviation incidents to bring transparency and accountability to the skies.</p>
 </div>
 
+<img width="1497" height="945" alt="Screenshot 2025-07-28 at 4 58 25 PM" src="https://github.com/user-attachments/assets/2a65c8b2-0442-40b9-bce3-cee9dec78143" />
+
 ## Contributing
 
 You can contribute to this project by reporting an incident or by adding a new incident to the database.
