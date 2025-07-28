@@ -19,6 +19,7 @@ function getIncidentTypeColor(type: string): string {
   const colors: { [key: string]: string } = {
     'Structural Failure': 'bg-red-100 text-red-800 border-red-200',
     'Collision': 'bg-orange-100 text-orange-800 border-orange-200',
+    'Crash': 'bg-red-100 text-red-800 border-red-200',
     'Turbulence': 'bg-yellow-100 text-yellow-800 border-yellow-200',
     'Engine Failure': 'bg-purple-100 text-purple-800 border-purple-200',
     'Landing Incident': 'bg-blue-100 text-blue-800 border-blue-200',

@@ -1,121 +1,15 @@
 [
   {
-    "date": "2024-01-15",
+    "date": "2025-06-12",
     "manufacturer": "Boeing",
-    "aircraft": "Boeing 737 MAX 9",
-    "airline": "Alaska Airlines",
-    "incident_type": "Structural Failure",
-    "description": "Door plug blew out during flight, causing rapid decompression",
-    "location": "Portland, Oregon",
-    "casualties": "0 fatalities, 0 injuries",
+    "aircraft": "787-8 Dreamliner",
+    "airline": "Air India",
+    "incident_type": "Crash",
+    "description": "Flight 171 crashed after takeoff from Ahmedabad; both engines lost thrust. 1 survivor, investigation ongoing.",
+    "location": "Ahmedabad, India",
+    "casualties": "260 fatalities (241 passengers and crew, 19 on the ground), 1 survivor",
     "news_links": [
-      "https://www.bbc.com/news/world-us-canada-67936038",
-      "https://www.reuters.com/business/aerospace-defense/alaska-airlines-grounds-boeing-737-max-9-fleet-after-mid-air-panel-blowout-2024-01-06/"
-    ]
-  },
-  {
-    "date": "2023-12-28",
-    "manufacturer": "Airbus",
-    "aircraft": "Airbus A350-900",
-    "airline": "Japan Airlines",
-    "incident_type": "Collision",
-    "description": "Collision with Coast Guard aircraft during landing at Haneda Airport",
-    "location": "Tokyo Haneda Airport, Japan",
-    "casualties": "5 fatalities (Coast Guard), 0 passenger fatalities",
-    "news_links": [
-      "https://www.bbc.com/news/world-asia-67845678",
-      "https://www.reuters.com/world/asia-pacific/japan-airlines-plane-catches-fire-tokyo-haneda-airport-2024-01-02/"
-    ]
-  },
-  {
-    "date": "2023-11-29",
-    "manufacturer": "Boeing",
-    "aircraft": "Boeing 787-9 Dreamliner",
-    "airline": "LATAM Airlines",
-    "incident_type": "Turbulence",
-    "description": "Severe turbulence caused injuries to passengers and crew",
-    "location": "International airspace over South America",
-    "casualties": "0 fatalities, 50+ injuries",
-    "news_links": [
-      "https://www.bbc.com/news/world-latin-america-67564432"
-    ]
-  },
-  {
-    "date": "2023-10-15",
-    "manufacturer": "Airbus",
-    "aircraft": "Airbus A320neo",
-    "airline": "IndiGo",
-    "incident_type": "Engine Failure",
-    "description": "Engine failure during takeoff, aircraft returned safely to airport",
-    "location": "Mumbai, India",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.hindustantimes.com/india-news/indigo-flight-returns-to-mumbai-after-engine-failure-101697456789000.html"
-    ]
-  },
-  {
-    "date": "2023-09-12",
-    "manufacturer": "Boeing",
-    "aircraft": "Boeing 777-300ER",
-    "airline": "Emirates",
-    "incident_type": "Landing Incident",
-    "description": "Hard landing causing damage to landing gear and runway",
-    "location": "Dubai International Airport, UAE",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.khaleejtimes.com/uae/emirates-flight-makes-hard-landing-at-dubai-airport"
-    ]
-  },
-  {
-    "date": "2023-08-08",
-    "manufacturer": "Bombardier",
-    "aircraft": "Bombardier CRJ900",
-    "airline": "American Eagle",
-    "incident_type": "Takeoff Incident",
-    "description": "Aborted takeoff due to engine warning, aircraft evacuated",
-    "location": "Charlotte, North Carolina",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.wcnc.com/article/news/local/american-eagle-flight-evacuated-charlotte-airport/275-12345678"
-    ]
-  },
-  {
-    "date": "2023-07-22",
-    "manufacturer": "Airbus",
-    "aircraft": "Airbus A380",
-    "airline": "Singapore Airlines",
-    "incident_type": "Fire",
-    "description": "Engine fire during taxi, aircraft returned to gate",
-    "location": "Singapore Changi Airport",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.straitstimes.com/singapore/singapore-airlines-flight-returns-to-changi-after-engine-fire"
-    ]
-  },
-  {
-    "date": "2023-06-14",
-    "manufacturer": "Boeing",
-    "aircraft": "Boeing 737-800",
-    "airline": "Southwest Airlines",
-    "incident_type": "Structural Failure",
-    "description": "Crack discovered in fuselage during routine inspection",
-    "location": "Phoenix, Arizona",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.azcentral.com/story/news/local/phoenix/2023/06/14/southwest-airlines-737-crack-phoenix-airport/123456789/"
-    ]
-  },
-  {
-    "date": "2023-07-14",
-    "manufacturer": "Boeing",
-    "aircraft": "Boeing 737-800900",
-    "airline": "Indian Airlines",
-    "incident_type": "Structural Failure",
-    "description": "Crack discovered in fuselage during routine inspection",
-    "location": "Mumbai, India",
-    "casualties": "0 fatalities, 0 injuries",
-    "news_links": [
-      "https://www.hindustantimes.com/india-news/indigo-flight-returns-to-mumbai-after-engine-failure-101697456789000.html"
+      "https://www.bbc.com/news/articles/c5y5nq170z4o"
     ]
   }
-] 
+]

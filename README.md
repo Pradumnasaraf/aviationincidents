@@ -54,17 +54,21 @@ Each incident must follow this structure:
 
 Example:
 ```json
-{
-  "date": "2024-06-12",
-  "manufacturer": "Boeing",
-  "aircraft": "737 MAX",
-  "airline": "Example Air",
-  "incident_type": "Engine Failure",
-  "description": "The aircraft experienced a right-engine shutdown mid-flight. Emergency landing executed safely.",
-  "location": "Chicago, USA",
-  "casualties": "None",
-  "news_links": ["https://example.com/news/incident1"]
-}
+[
+  {
+    "date": "2025-06-12",
+    "manufacturer": "Boeing",
+    "aircraft": "787-8 Dreamliner",
+    "airline": "Air India",
+    "incident_type": "Crash",
+    "description": "Flight 171 crashed after takeoff from Ahmedabad; both engines lost thrust. 1 survivor, investigation ongoing.",
+    "location": "Ahmedabad, India",
+    "casualties": "260 fatalities (241 passengers and crew, 19 on the ground), 1 survivor",
+    "news_links": [
+      "https://www.bbc.com/news/articles/c5y5nq170z4o",
+    ]
+  }
+]
 ```
 
 ### Why it exists and matters?
