@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>✈️ Aviation Incidents</h1>
+  <img src="public/logo-icon.png" alt="Aviation Incidents Logo" width="120" height="120" />
+    <h1>Aviation Incidents</h1>
   <p>Tracking global aviation incidents to bring transparency and accountability to the skies.</p>
 </div>
 

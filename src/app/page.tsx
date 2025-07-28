@@ -77,9 +77,15 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12">
         {/* Hero Section */}
         <div className="text-center mb-8">
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-            Aviation Incidents
-          </h1>
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/logo.png" 
+              alt="Aviation Incidents Logo" 
+              className="h-12 sm:h-16 w-auto"
+              width={180}
+              height={60}
+            />
+          </div>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base">
             Holding airlines and aircraft manufacturers accountable through transparent incident tracking.
           </p>
@@ -157,8 +163,14 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-8 lg:space-y-0">
             <div className="text-left">
-              <div className="mb-4">
-                <h3 className="text-lg font-semibold text-gray-900">Aviation Incidents</h3>
+              <div className="mb-4 flex items-center">
+                <img 
+                  src="/logo.png" 
+                  alt="Aviation Incidents Logo" 
+                  className="h-8 w-auto"
+                  width={120}
+                  height={40}
+                />
               </div>
               <p className="text-gray-600 max-w-2xl mb-3 text-sm sm:text-base">
                 Holding airlines and aircraft manufacturers accountable through transparent incident tracking.
