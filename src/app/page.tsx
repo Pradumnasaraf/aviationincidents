@@ -78,7 +78,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="text-center mb-8">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-            Aviation Incident Tracker
+            Aviation Incidents
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base">
             Holding airlines and aircraft manufacturers accountable through transparent incident tracking.
@@ -158,7 +158,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-8 lg:space-y-0">
             <div className="text-left">
               <div className="mb-4">
-                <h3 className="text-lg font-semibold text-gray-900">Aviation Incident Tracker</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Aviation Incidents</h3>
               </div>
               <p className="text-gray-600 max-w-2xl mb-3 text-sm sm:text-base">
                 Holding airlines and aircraft manufacturers accountable through transparent incident tracking.

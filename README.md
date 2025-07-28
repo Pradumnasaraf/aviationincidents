@@ -1,4 +1,4 @@
-# Aviation Incident Tracker
+# Aviation Incidents
 
 A clean and minimalist web application for tracking aviation incidents, accidents, and safety events worldwide. Built with Next.js, TypeScript, and Tailwind CSS, this application provides a simple and focused interface for viewing, searching, and filtering aviation incidents with verified news sources.
 
