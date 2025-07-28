@@ -33,9 +33,7 @@ If you’re familiar with GitHub:
 2. Add your incident to the [`src/data/incidents.ts`](src/data/incidents.ts) file.
 3. Submit a pull request [here](https://github.com/pradumnasaraf/aviationincidents/pulls).
 
----
-
-#### Incident Format
+### Incident Format
 
 Each incident must follow this structure:
 
@@ -68,6 +66,6 @@ Example:
 }
 ```
 
-## Why it exists and matters?
+### Why it exists and matters?
 
 This project exists to shine light on aviation safety concerns—both major and minor. Each data point adds pressure for better safety standards, accountability, and operational improvements.
