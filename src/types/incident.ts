@@ -10,6 +10,4 @@ export interface AviationIncident {
   news_links: string[];
 }
 
-export type IncidentType = 'Structural Failure' | 'Collision' | 'Turbulence' | 'Engine Failure' | 'Landing Incident' | 'Takeoff Incident' | 'Fire' | 'Other';
-
- 
+export type IncidentType = 'Structural Failure' | 'Collision' | 'Crash' | 'Turbulence' | 'Engine Failure' | 'Landing Incident' | 'Takeoff Incident' | 'Fire' | 'Other';
