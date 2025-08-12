@@ -26,8 +26,7 @@ Once you have gathered the information, you can contribute in **two simple ways*
 
 ### Option 1: Report an Incident (For users who are not familiar with Git)
 
-If you're not comfortable editing code or using Git, just open a new issue with the incident details using [this template](https://github.com/pradumnasaraf/aviationincidents/issues/new?assignees=&labels=incident&template=incident_report.yaml).  
-We’ll review and add it for you.
+If you're not comfortable editing code or using Git, just open a new issue with the incident details using [this template](https://github.com/pradumnasaraf/aviationincidents/issues/new?assignees=&labels=incident&template=incident_report.yaml). We’ll review and add it for you.
 
 ### Option 2: Open a Pull Request
 
