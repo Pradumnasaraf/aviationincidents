@@ -40,10 +40,10 @@ export default function FilterBar({
   const hasActiveFilters = Object.values(filters).some(filter => filter);
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden w-full max-w-full">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 px-6 py-4 border-b border-gray-100">
-        <div className="flex items-center justify-between">
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 px-4 sm:px-6 py-4 border-b border-gray-100">
+        <div className="flex items-center justify-between gap-2">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
               <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,10 +76,10 @@ export default function FilterBar({
 
       {/* Active Filters Display */}
       {hasActiveFilters && (
-        <div className="px-6 py-3 bg-amber-50 border-b border-amber-100">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <span className="text-sm font-medium text-amber-800">Active Filters:</span>
+        <div className="px-4 sm:px-6 py-3 bg-amber-50 border-b border-amber-100">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+            <div className="flex items-center flex-wrap gap-2 min-w-0">
+              <span className="text-sm font-medium text-amber-800 whitespace-nowrap">Active Filters:</span>
               <div className="flex flex-wrap gap-2">
                 {filters.airline && (
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
@@ -139,7 +139,7 @@ export default function FilterBar({
 
       {/* Filter Options */}
       {isExpanded && (
-        <div className="p-6 space-y-6">
+        <div className="p-4 sm:p-6 space-y-6 overflow-x-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Aircraft Manufacturer Filter */}
             <div className="space-y-2">

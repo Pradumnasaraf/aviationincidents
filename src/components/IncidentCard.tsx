@@ -31,7 +31,7 @@ function getIncidentTypeColor(type: string): string {
 
 export default function IncidentCard({ incident }: IncidentCardProps) {
   return (
-    <div className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:border-gray-200 transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
+    <div className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:border-gray-200 transition-all duration-300 overflow-hidden transform hover:-translate-y-1 w-full max-w-full">
       {/* Header with gradient background */}
       <div className="bg-gradient-to-r from-slate-50 to-gray-50 px-4 sm:px-6 py-4 sm:py-5 border-b border-gray-100">
         <div className="flex items-start justify-between mb-3">
