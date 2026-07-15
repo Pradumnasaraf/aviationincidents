@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { AviationIncident } from '@/types/incident';
 import { getAllIncidents, getUniqueAirlines, getUniqueAircraft, getUniqueIncidentTypes } from '@/lib/incidents';
 import IncidentCard from '@/components/IncidentCard';
@@ -10,8 +10,7 @@ import FilterBar from '@/components/FilterBar';
 
 
 export default function Home() {
-  const [incidents, setIncidents] = useState<AviationIncident[]>([]);
-  const [filteredIncidents, setFilteredIncidents] = useState<AviationIncident[]>([]);
+  const [incidents] = useState<AviationIncident[]>(() => getAllIncidents());
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedFilters, setSelectedFilters] = useState({
     airline: '',
@@ -20,13 +19,7 @@ export default function Home() {
     year: ''
   });
 
-  useEffect(() => {
-    const allIncidents = getAllIncidents();
-    setIncidents(allIncidents);
-    setFilteredIncidents(allIncidents);
-  }, []);
-
-  useEffect(() => {
+  const filteredIncidents = useMemo(() => {
     let filtered = incidents;
 
     // Apply search filter
@@ -59,7 +52,7 @@ export default function Home() {
       filtered = filtered.filter(incident => incident.date.startsWith(selectedFilters.year));
     }
 
-    setFilteredIncidents(filtered);
+    return filtered;
   }, [incidents, searchTerm, selectedFilters]);
 
   const clearFilters = () => {
