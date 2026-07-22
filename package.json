@@ -41,6 +41,6 @@
     "@tailwindcss/postcss": "^4.3.2",
     "tailwindcss": "^4.3.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.2.10"
+    "eslint-config-next": "^16.2.11"
   }
 }
